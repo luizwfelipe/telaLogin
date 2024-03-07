@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff7b00;
+    box-shadow: 0 10px 10px #868686;
+    flex-direction: column;
+    height: 40%;
+}
+
+.alinhamento{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    padding: 1%;
+}
+
+#logo{
+    width: 90%;
+}
+
+button{
+    margin-right: 1vh;
+    margin-left: 1vh;
+    font-size: 4vh;
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.ptTres{
+    margin-right: 1vh;
+    margin-left: 1vh;
+    font-size: 4vh;
+    cursor:pointer;
+}
+
+.alinhamentoDois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin: 0;
+}
+
+#inputSearch{
+    margin-right: 1vh;
+    margin-left: 1vh;
+    border: none;
+    width: 50vw;
+    height: 5vh;
+    background-color: #ffffff;
+    font-size: large;
+    font-weight: 400;
+}
+
+.btnPesquisar{
+    margin-right: 1vh;
+    margin-left: 1vh;
+    border: none;
+    width: 18vw;
+    height: 5vh;
+    background-color: #ffffff;
+    font-size: large;
+    font-weight: 400;
+}
