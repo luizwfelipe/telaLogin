@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,28 +9,47 @@
 </head>
 <body>
     <header>
-                <div class="alinhamento">
-                    <div class="ptUm">
-                        <img id="logo" src="./../assets/Logotipo-SENAI-Slogan.png" alt="logo">
-                        
-                        
-                    </div>
-                    <div class="ptDois">
-                        
-                    </div>
-                    <div class="ptTres">
-                        <div>
-                            <i class="fa-regular fa-user"></i>
-                            <i class="fa-solid fa-bag-shopping"></i>
-                        </div>
-                    </div>                  
-                </div>
-                <div class="alinhamentoDois">
-                    <button class="btnMenu"><i class="fa-solid fa-bars"></i></button>
-                    
-                    <button class="btnPesquisar"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    <input type="text" id="inputSearch" placeholder="Pesquise aqui!">
-                </div>
+        <div class="logo">
+            <img src="./../assets/Logotipo-SENAI-Slogan.png" alt="logo">
+        </div>
+        <div class="user-cart">
+            <i class="fas fa-user"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class="search-form">
+            <input type="text" id="inputSearch" placeholder="Pesquise aqui!">
+            <button class="btnPesquisar"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="menu-items">
+            <a href="#" class="category">Acessórios</a>
+            <a href="#" class="category">Literatura Clássica</a>
+            <a href="#" class="category">Fantasia</a>
+            <a href="#" class="category">Independentes</a>
+            <a href="#" class="category">Terror</a>
+            <a href="#" class="category">Policial</a>
+            <a href="#" class="category">Romance</a>
+            <a href="#" class="category">Comédia</a>
+            <a href="#" class="category">Religião e Espiritualidade</a>
+            <a href="#" class="category">Biografias</a>
+        </div>
     </header>
+    
+    <div class="categories">
+        <a href="#" class="category">Acessórios</a>
+        <a href="#" class="category">Literatura Clássica</a>
+        <a href="#" class="category">Fantasia</a>
+        <a href="#" class="category">Independentes</a>
+        <a href="#" class="category">Terror</a>
+        <a href="#" class="category">Policial</a>
+        <a href="#" class="category">Romance</a>
+        <a href="#" class="category">Comédia</a>
+        <a href="#" class="category">Religião e Espiritualidade</a>
+        <a href="#" class="category">Biografias</a>
+    </div>
+
+    <script src="./../js/tela.js"></script>
 </body>
 </html>
